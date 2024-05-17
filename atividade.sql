@@ -26,5 +26,7 @@ SELECT * FROM tb_colaboradores WHERE salario < 2000;
 UPDATE tb_colaboradores SET idade = 19 WHERE id = 4;
 UPDATE tb_colaboradores SET cargo = "estagiaria" WHERE id = 4;
 UPDATE tb_colaboradores SET salario = 1200.00 WHERE id = 4;
+
 SELECT * FROM tb_colaboradores;
 
+UPDATE tb_colaboradores SET idade = 20, cargo = "redatora", salario = 1500.00 WHERE id = 4;
